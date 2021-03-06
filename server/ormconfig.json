@@ -1,0 +1,9 @@
+{
+    "type": "postgres",
+    "database": "movies",
+    "username": "postgres",
+    "password": "postgres",
+    "logging": true,
+    "synchronize": true,
+    "entities": ["dist/entities/**/*.js"]
+}
